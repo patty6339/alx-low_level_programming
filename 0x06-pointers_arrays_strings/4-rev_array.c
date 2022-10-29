@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reverses the content of an array of integers
+ * reverse_array - reverse array
  *
  * @a: arg char
  * @n: arg char
@@ -25,5 +25,4 @@ void reverse_array(int *a, int n)
 		a[n--] = a[i];
 		a[i++] = temp;
 	}
-	return (0);
 }
